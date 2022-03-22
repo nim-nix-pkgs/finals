@@ -1,5 +1,5 @@
 {
-  description = ''Transparently declare single-set attributes on types.'';
+  description = ''Transparently declare single-set attributes.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-finals-master.flake = false;
   inputs.src-finals-master.owner = "quelklef";
-  inputs.src-finals-master.ref   = "refs/heads/master";
+  inputs.src-finals-master.ref   = "master";
   inputs.src-finals-master.repo  = "nim-finals";
   inputs.src-finals-master.type  = "github";
   
