@@ -11,7 +11,6 @@
   inputs.src-finals-master.ref   = "refs/heads/master";
   inputs.src-finals-master.owner = "quelklef";
   inputs.src-finals-master.repo  = "nim-finals";
-  inputs.src-finals-master.dir   = "";
   inputs.src-finals-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
